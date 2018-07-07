@@ -98,6 +98,10 @@
         document.getElementById("third-page").style.height = y;
         document.getElementById("fourth-page").style.height = y;
         
+        window.onload = function() {
+            alert("View in a desktop for the best experience.");
+        }
+        
         function explore() {
             $('html,body').animate({
                 scrollTop: $("#second-page").offset().top
