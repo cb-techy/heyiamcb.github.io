@@ -1,16 +1,19 @@
 <style>
             * {
-                font-size: 100%;
-                tab-size: 80%;
+                tab-size: 80vw;
                 margin: 0;
                 padding: 0;
                 font-family: 'Roboto', sans-serif;
             }
             
+            kc {
+                display: none;
+            }
+
             #fourth-page p {
                 font-family: 'Helvetica';
             }
-            
+
             html {
                 overflow:auto;
             }
@@ -30,40 +33,40 @@
             .imgo {
                 transition: 0.5s;
                 position: fixed;
-                margin: 20px 20px;
-                width:65px;
-                height:65px;
+                margin: 1.61vw 1.61vw;
+                width:4.76vw;
+                height:4.76vw;
             }
             
             .imgt {
                 transition: 0.5s;
                 position: fixed;
-                margin: 5px 5px;
-                width: 49px;
-                height: 49px;
+                margin: 0.37vw 0.37vw;
+                width: 3.59vw;
+                height: 3.59vw;
             }
             
             .text {
                 transition: 0.5s;
                 float: left;
-                padding: 24px 30px;
-                letter-spacing: 1px;
-                font-size: 14px; 
+                padding: 1.76vw 2.2vw;
+                letter-spacing: 0.1vw;
+                font-size: 0.97vw; 
             }
             
             .textt {
                 transition: 0.5s;
                 float: right;
                 position: relative;
-                top: -3px;
-                right: -5px;
+                top: -0.21vw;
+                right: -0.35vw;
             }
             
             .textc {
                 transition: 0.5s;
                 float: right;
-                margin-right: 37px; 
-                margin-top: 17px;
+                margin-right: 2.57vw; 
+                margin-top: 1.18vw;
             }
             
             a:hover, a:visited, a:link, a:active {
@@ -78,46 +81,46 @@
             
             #long {
                 width:100%;
-                height: 5000px;
+                height: 347.5vw;
                 background: linear-gradient(black,grey);
             }
             
             #jumb {
                 position:relative;
-                top:200px;
+                top: 13.9vw;
                 background: transparent;
                 color: white;
             }
             
             hr {
                 background-color:white;
-                width: 500px;
+                width: 25.8vw;
                 margin: 0 auto;
                 float: left;
             }
             
             #cb {
-                font-size: 15em;
+                font-size: 16.680vw;
                 text-align: center;
                 position: relative;
-                top: -100px;
+                top: -6.1020vw;
                 font-weight: 500;
-                margin-bottom: -100px;
+                margin-bottom: -6.1020vw;
             }
             
             #subtext {
                 text-align: center;
-                font-size: 17px;
+                font-size: 1.18vw;
                 font-family: inherit!important;
             }
             
             #hr {
-                width: 25px;
+                width: 1.74vw;
                 float: left;
                 position: relative;
-                top:13px;
-                margin-right: 10px;
-                margin-left: 10px;
+                top: 0.9vw;
+                margin-right: 0.69vw;
+                margin-left: 0.69vw;
             }
             
             #clr, #subtext{
@@ -125,12 +128,13 @@
             }
             
             #hrdiv {
-                width:1045px;
+                width: 54.72vw;
                 margin: 0 auto;
+                position: relative;
             }
             
             hr {
-                height: 1px;
+                height: 0.1vw;
             }
             
             #left{
@@ -145,13 +149,13 @@
             ul:hover li{
                 transition: 0.7s;
                 opacity:0.5;
-                margin-top: 20px;
+                margin-top: 1.46vw;
             }
             
             ul li:hover{
                 opacity:1;
                 margin-top: 0;
-                font-size: 20px;
+                font-size: 1.46vw;
             }
             
             ul li {
@@ -164,20 +168,20 @@
             }
             button {
                 position: absolute;
-                width:240px;
-                height: 50px;
+                width: 17.57vw;
+                height: 3.66vw;
             }
             
             #button {
-                width: 240px;
-                margin: 150px auto;
+                width: 17.57vw;
+                margin: 10.98vw auto;
             }
             
             .header {
                 position: fixed;
                 transition: 0.5s;
                 width: 100%;
-                height: 105px;
+                height: 7.68vw;
                 background: transparent;
             }
             
@@ -185,7 +189,7 @@
                 transition: 0.5s;
                 position: fixed;
                 width: 100%;
-                height: 62px;
+                height: 4.53vw;
 /*                background: #131416;*/
                 background: #232323;
                 z-index: 5;
@@ -200,6 +204,14 @@
                 perspective: 900px;
                 transition: 0.5s;
             }
+            
+            .ft {
+                font-size: 1.3vw;
+            }
+
+            .heads {
+                font-size: 2.3vw
+            }
 
             .inner1:hover, .inner2:hover, .inner3:hover {
                 transition: 0.7s;
@@ -210,18 +222,18 @@
                 font-family: 'Helvetica',sans-serif;
                 transition: 0.7s;
                 transform: rotateX(50deg);
-                width: 250px;
-                height: 500px;
-                margin-top: 20px;
+                width: 18.301vw;
+                height: 36.601vw;
+                margin-top: 1.464vw;
                 float: left;
                 background: linear-gradient(grey,transparent);
                 border-radius: 7px;
                 text-align: center;
-                padding: 10px;
+                padding: 0.732vw;
             }
             
             .inner1 {
-                margin-left: 50px;
+                margin-left: 3.66vw;
             }
 
             .inner2 {
@@ -242,26 +254,26 @@
             }
             
             #second-page, #third-page, #fourth-page {
-                padding:0 200px 0 200px;
+                padding:0 14.64vw 0 14.64vw;
             }
             
             .pagetitle {
-                font-size: 60px;
+                font-size: 4.392vw;
                 text-align: center;
-                padding-top: 65px;
+                padding-top: 4.758vw;
             }
             
             tag {
-                font-size: 55px;
-                margin-top: 50px !important;
+                font-size: 4.02vw;
+                margin-top: 3.66vw !important;
             }
             
             #selfpic {
                 transition: 1s;
-                margin-top: 50px;
-                width: 300px;
-                border-top-right-radius: 100px;
-                border-bottom-left-radius: 100px;
+                margin-top: 3.66vw;
+                width: 21.96vw;
+                border-top-right-radius: 7.32vw;
+                border-bottom-left-radius: 7.32vw;
             }
             
             #selfpic:hover {
@@ -270,27 +282,27 @@
 /*                transform: rotateY(180deg);*/
 /*                top: 30px;*/
 /*                left: 0px;*/
-                margin-left: -5px;
-                margin-bottom: -5px;
-                width:340px;
+                margin-left: -0.366vw;
+                margin-bottom: -0.366vw;
+                width: 24.89vw;
             }
             
             .pic {
                 transition: 1s;
                 position: relative;
-                left: 5px;
+                left: 0.366vw;
                 opacity: 1 !important;
             }
             
             .myPic {
                 transition: 1s;
                 position: relative;
-                left: -70px !important;
+                left: -5.124vw !important;
                 opacity: 0 !important;
             }
             
             #third-page {
-                padding-top: 60px;
+                padding-top: 4.39vw;
             }
             
             clr {
@@ -298,7 +310,7 @@
             }
             
             .aboutText {
-                margin: 50px;
+                margin: 3.66vw;
             }
             
             #aboutTitle, .aboutText {
@@ -308,38 +320,38 @@
             /* 1366 - 400 => 966 - 340 => 626 */
             
             .aboutText {
-                width: 500px;
+                width: 36.6vw;
                 float: right;
             }
 
             #fourthHead {
                 text-align: center;
                 position: relative;
-                top: -100px;
+                top: -7.32vw;
             }
             
             #fourth-page {
-                line-height: 10px;  
+                line-height: 0.732vw;  
             }
             
             #address {
-                width: 300px;
-                margin-top: 150px;
+                width: 21.96vw;
+                margin-top: 10.98vw;
                 float: left;
             }
             
             .bold {
                 text-align: center;
-                font-size: 50px;
+                font-size: 3.66vw;
             }
             
             #numbers {
                 float: right;
-                margin-top: 150px;
+                margin-top: 10.98vw;
             }
             
             #follow {
-                width: 540px;
+                width: 39.531vw;
                 text-align: center;
                 margin: 0 auto;
                 cursor: default;
@@ -347,9 +359,9 @@
             
             .folimg {
                 transition: 0.5s;
-                margin-left: 5px;
-                margin-right: 5px;
-                width: 50px;
+                margin-left: 0.366vw;
+                margin-right: 0.366vw;
+                width: 3.66vw;
                 border-radius: 50%;
                 position: relative;
 /*                right: -26px;*/
@@ -361,18 +373,18 @@
             }
             
             #foltext {
-                font-size: 25px;
+                font-size: 1.83vw;
             }
             
             #fourth-page {
-                padding-top: 200px;
+                padding-top: 14.641vw;
             }
     
             .but {
                 transition: 0.3s;
-                width: 220px;
-                height: 43px;
-                font-size: 14px;
+                width: 16.46vw;
+                height: 3.147vw;
+                font-size: 1.024vw;
                 color: grey;
                 background: transparent;
                 border: 1px solid grey;
@@ -387,7 +399,7 @@
             }
             
             #button {
-                width:223px;
+                width: 16.32vw;
             }
             
             .but:focus {
@@ -397,22 +409,22 @@
             
             #up, #bot {
                 transition: 0.5s;
-                padding: 5px;
-                width: 60px;
-                height: 50px;
+                padding: 0.366vw;
+                width: 4.392vw;
+                height: 3.66vw;
                 position: fixed;
-                right: 50px;
-                bottom: 100px;
+                right: 3.66vw;
+                bottom: 7.32vw;
             }
             
             #bot {
                 transition: 0.5s;
-                bottom: 50px;
+                bottom: 3.66vw;
             }
             
             .scrl {
                 position: fixed;
-                width: 50px;
+                width: 3.66vw;
             }
             
             #upb, #botb {
@@ -420,21 +432,21 @@
             }
             
             #bota {
-                bottom: 85px;
+                bottom: 6.222vw;
             }
             
             #upb {
-                bottom: 65px;
+                bottom: 4.75vw;
             }
             
             #botb {
                 transition: 0.5s;
-                bottom: 53px;
+                bottom: 3.8799vw;
             }
             
             #upa, #botb {
-                width: 36px;
-                right: 62px;
+                width: 2.635vw;
+                right: 4.538vw;
             }
             
             #up:hover, #bot:hover {
@@ -443,12 +455,12 @@
             
             #up:hover {
                 transition: 0.5s;
-                bottom: 120px;
+                bottom: 8.784vw;
             }
             
             #bot:hover #botb {
                 transition: 0.5s;
-                bottom: 30px;
+                bottom: 2.196vw;
             }
             
             .nodisp {
@@ -462,62 +474,5 @@
                 opacity: 1;
                 cursor: pointer;
             }
-           @media screen and (max-width: 1280px) and (max-height: 720px) {
-                * {
-                    font-size: 50%;
-/*                    color: red !important;not_important*/
-                }
-                
-                html {
-                    zoom: 50%;
-                }
-                
-                #myvideo {
-                    width: 100%;
-                    height: auto;
-                    margin-top: 0px;
-                    top: -300px;
-                }
-                
-                #img {
-                    width: 10%;
-                    height: auto;
-                }
-                
-                #heada {
-                    width: 100%;
-                    height: 10%;
-                }
-                
-                .text {
-                    margin: -20px;
-                }
-                
-                #hr {
-                    width: 15px;
-                }
-                
-                hr {
-                    width: 238px;
-                }
-                
-                #cb {
-                    font-size: 80px;
-                }
-                
-                #jumb {
-                    top: 150px;
-                }
-                
-                button {
-                    width: 120px !important;
-                    height: 25px !important;
-                    font-size: 12px !important;
-                }
-                
-                #but {
-                    margin-left: 10%;
-                    top: 270px
-                }
-            }
+
         </style>
