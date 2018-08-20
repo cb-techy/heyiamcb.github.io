@@ -25,7 +25,12 @@
             </div>
             <div class="jumbotron" id="jumb">
                 <h1 id="cb" class="display-4">CB</h1>
-                <div id="hrdiv"><hr class="my-4" id="left"><img id="hr" src="hra.png"><hr class="my-4" id="right"></div>
+                
+                <div id="hrdiv">
+                    <hr class="my-4" id="left">
+                    <img id="hr" src="hra.png">
+                    <hr class="my-4" id="right">
+                </div>
                 <div id="clr"></div>
                 <br>
                 <p id="subtext">Hello, I am Chinmay Bhatt, student of SRM Institute, Chennai. I am a programmer and a web developer.</p>
@@ -48,7 +53,7 @@
             <header class="pageTitleContainer"><h1 class="pageTitle">About me</h1></header>
             <img class="myPic" id="selfpic" src="selfpic2.jpg">
             <clr></clr>
-            <div class="abouttext">
+            <div class="abouttext ft">
                 <div id="aboutTitle"><tag>Hello!</tag></div>
                 <p>I am Chinmay bhatt. You have reached here, thus you already know that I am a coder. Also I am pursuing B.Tech. in SRMIST, specialization in Computer Science and Engineering a.k.a. CSE. I love coding and I am a Web Developer.</p><p>Also I love music. I am a guitarist. A big fan of Arijit Singh.</p><p> I am currently woking on chatbots and AI. I have won a Hackathon in the open source field. Also I have won a special prize in Artificial Integillence in a Hackathon.</p>
             </div>
@@ -57,32 +62,33 @@
         <div id="third-page">
             <div id="thirdHead" class="bold">Projects</div>
             <div class="outer1">
-                <a href="http://helloiamcb-com.stackstaging.com"><div class="inner1"><h2>Weather Forecast</h2><p class="p">This was a project I made while I started to learn PHP and database management. This is a city based weather forecast. You can get today's weather of any city in the world.It is currently on my workspace.<p><p>Click on the card to view the project.</p></div></a>
-                <a href="https://www.facebook.com/MISTI-893136834193406/"><div class="inner2"><h2>MISTI<br>The Chatbot</h2><p class="p">MISTI was the chatbot which I was previously talking about. We won a special prize for MISTI in the Artificial Intelligence field. It was my first hackathon project. It is a messenger based AI.</p><p>Click on the card to view the project.</p></div></a>
-                <a><div class="inner3"><h2>Admin UI<br>CMS</h2><p class="p">The Admin controlled CMS was my First PHP project. It is a College Management System which only administrators of the college can access. It contains all information of college related to its members.</p><p>Click on the card to view the project.</p></div></a>
+                <a href="http://helloiamcb-com.stackstaging.com"><div class="inner1 ft"><h2 class="heads">Weather Forecast</h2><p class="p">This was a project I made while I started to learn PHP and database management. This is a city based weather forecast. You can get today's weather of any city in the world.It is currently on my workspace.<p><p>Click on the card to view the project.</p></div></a>
+                <a href="https://www.facebook.com/MISTI-893136834193406/"><div class="inner2 ft"><h2 class="heads">MISTI<br>The Chatbot</h2><p class="p">MISTI was the chatbot which I was previously talking about. We won a special prize for MISTI in the Artificial Intelligence field. It was my first hackathon project. It is a messenger based AI.</p><p>Click on the card to view the project.</p></div></a>
+                <a><div class="inner3 ft"><h2 class="heads">Admin UI<br>CMS</h2><p class="p">The Admin controlled CMS was my First PHP project. It is a College Management System which only administrators of the college can access. It contains all information of college related to its members.</p><p>Click on the card to view the project.</p></div></a>
             </div>
         </div>
         <div id="fourth-page">
             <div id="fourthHead" class="bold"><tag>Contact Me</tag></div>
             <div id="address">
-                <p style="font-size: 20px"><b>Mon Adresse est:</b></p>
-                <p>20057 - 20B</p>
-                <p>Prestige Bella Vista Apartments</p>
-                <p>Iyyappanthangal</p>
-                <p>Chennai - 600056</p>
-                <p>Tamilnadu</p>
+                <p style="font-size: 20px"><b class="heads">Address:</b></p>
+                <xx class="ft">
+                    <p>20057 - 20B</p>
+                    <p>Prestige Bella Vista Apartments</p>
+                    <p>Iyyappanthangal</p>
+                    <p>Chennai - 600056</p>
+                    <p>Tamilnadu</p></xx>
             </div>
             <div id="numbers">
-                <p style="font-size: 20px; text-align: right"><b>Mon Numero de Telephone est:</b></p>
-                <p style="text-align: right">~ +91 6377067656</p>
-                <p style="text-align: right">~ +91 8608812081</p>
-                <p style="font-size: 20px; text-align: right"><b>Mon Addresse de Electonique est:</b></p>
-                <p style="text-align: right">~ techedcb@gmail.com</p>
+                <p style="font-size: 20px; text-align: right"><b class="heads">Contact Number:</b></p>
+                <xx class="ft"><p style="text-align: right">~ +91 6377067656</p>
+                    <p style="text-align: right">~ +91 8608812081</p></xx>
+                <p style="font-size: 20px; text-align: right"><b class="heads">Email Address:</b></p>
+                <xx class="ft"><p style="text-align: right">~ techedcb@gmail.com</p></xx>
             </div>
             <div id="clr"></div>
             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
             <div id="follow">
-                <p id="foltext">Follow Me on: </p>
+                <p id="ft">Follow Me on: </p>
                 <a href="https://www.facebook.com/1889bhatt"><img src="fb.png" class="folimg"></a>
                 <a href="https://twitter.com/techedcb"><img src="twitter.png" class="folimg"></a>
                 <a href="https://instagram.com/techedcb"><img src="insta.png" class="folimg"></a>
@@ -99,10 +105,6 @@
         document.getElementById("second-page").style.height = y;
         document.getElementById("third-page").style.height = y;
         document.getElementById("fourth-page").style.height = y;
-        
-        window.onload = function() {
-            alert("View in a desktop for the best experience.");
-        }
         
         function explore() {
             $('html,body').animate({
@@ -154,6 +156,10 @@
                 document.getElementById("scr").className = "nodisp";
             }
         }
+        
+//        window.onload = function() {
+//            alert("View in a desktop for the best experience."+x);
+//        }
         
         function scrlt() {
             var xy = window.scrollY;
